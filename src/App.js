@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+// import TodoListFeature from './features/Todo';
+// import AlbumFeature from './features/Albums';
+// import ListAPI from "./features/ListAPI"
+// import FeaturesUseCallback from './features/UseCallback'
+// import UseMemo from './features/UseMemo';
+// import UseReducer from './features/UseReducer';
+// import TodoReducer from './features/TodoReducer'
+// import UseContext from './features/UseContext';
+import AppTodo from './features/store/App.js'
+import AppVideo from './features/UseImprerativeHandle';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        // <AppVideo />
+        <AppTodo />
+        // {/* <UseContext /> */}
+        // {/* <TodoReducer /> */}
+        // {/* <UseReducer /> */}
+        // {/* <UseMemo /> */}
+        // {/* <FeaturesUseCallback />
+        // <TodoListFeature />
+        // <AlbumFeature />
+        // <ListAPI /> */}
+    )
 }
 
 export default App;
